@@ -1,0 +1,27 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Dhiraj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.11",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "validator": "^13.6.0"
+  }
+}
